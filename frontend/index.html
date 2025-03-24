@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>📌 Lista de Tareas de Jimmy</h1>
+        
+        <!-- Formulario para agregar tareas -->
+        <form id="taskForm">
+            <label for="taskInput">Nueva tarea:</label>
+            <input type="text" id="taskInput" placeholder="Escribe una tarea..." required>
+            <button type="submit" id="addTaskBtn">
+                <i class="fas fa-plus"></i> Agregar
+            </button>
+        </form>
+
+        <!-- Lista de tareas -->
+        <div id="taskContainer">
+            <p id="emptyMessage">No hay tareas pendientes</p>
+            <ul id="taskList" aria-live="polite"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
