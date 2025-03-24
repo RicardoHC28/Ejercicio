@@ -12,8 +12,8 @@ Interfaz limpia y funcional, con API para desarrolladores. Orientado a:
 - **Investigadores** que requieran gestión académica de fuentes  
 - **Bibliófilos** con colecciones extensas  
 - **Clubes de lectura** institucionales  
-
 Tecnología robusta (SPA React.js + backend Python), escalable y con cifrado de datos. Sin distracciones, solo productividad literaria."  
 
 ---  
 **¿Necesitas ajustar el enfoque técnico, añadir requisitos de compliance o destacar otros aspectos profesionales?**
+"Nueva línea en README desde la rama develop" >>
